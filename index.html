@@ -16,16 +16,16 @@
             background-color: #f4f7f6;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #2c3e50;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: 20px auto;
             background: #ffffff;
-            padding: 30px;
+            padding: 35px;
             border-radius: 16px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
 
         header {
@@ -64,7 +64,7 @@
             background: #2d6a4f;
             padding: 10px 15px;
             border-radius: 8px;
-            margin-top: 35px;
+            margin-top: 40px;
         }
 
         h3 {
@@ -88,36 +88,36 @@
             margin-bottom: 8px;
         }
 
-        /* Kotak Visual Ilustrasi */
+        /* Kotak Visual Ilustrasi Modern */
         .visual-box {
             background: #f8f9fa;
-            border: 2px dashed #95d5b2;
+            border: 2px solid #b7e4c7;
             border-radius: 12px;
             padding: 20px;
-            margin: 15px 0;
-            text-align: center;
+            margin: 20px 0;
         }
 
         .visual-title {
             font-weight: bold;
             font-size: 13px;
             color: #2d6a4f;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            text-align: center;
         }
 
         /* Grid Komponen Hardware */
         .hardware-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 15px;
             margin-top: 15px;
         }
 
         .hardware-card {
             background: #ffffff;
-            border: 1px solid #e0e0e0;
+            border: 1px solid #d8f3dc;
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -138,20 +138,57 @@
 
         .hardware-desc {
             font-size: 12px;
-            color: #666;
+            color: #555;
             text-align: center;
+        }
+
+        .category-badge {
+            display: inline-block;
+            background: #d8f3dc;
+            color: #2d6a4f;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-bottom: 6px;
         }
 
         .cycle-flow {
             background: #e9f5ed;
-            padding: 12px;
+            padding: 15px;
             border-radius: 8px;
             text-align: center;
             font-weight: bold;
             color: #2d6a4f;
             margin: 15px 0;
-            font-size: 14px;
+            font-size: 13px;
             border: 1px solid #b7e4c7;
+        }
+
+        /* Simulasi UI File Manager */
+        .file-manager-ui {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+
+        .folder-item {
+            color: #d97706;
+            font-weight: bold;
+            margin: 6px 0;
+        }
+
+        .sub-folder {
+            margin-left: 20px;
+            color: #2563eb;
+        }
+
+        .file-item {
+            margin-left: 40px;
+            color: #475569;
         }
 
         footer {
@@ -190,112 +227,164 @@
             </div>
         </header>
 
-        <!-- BAB 1 -->
+        <!-- ================= BAB 1 ================= -->
         <h2>BAB 1: BERPIKIR KOMPUTASIONAL (COMPUTATIONAL THINKING)</h2>
-        <p>Berpikir Komputasional adalah kerangka pemecahan masalah dengan menirukan cara kerja sistematis, logis, dan terstruktur. Terdapat 4 pilar utama:</p>
+        <p>Berpikir Komputasional adalah metode pemecahan masalah kompleks dengan menirukan cara kerja sistematis, logis, dan terstruktur layaknya seorang ilmuwan komputer. Cara berpikir ini sangat berguna tidak hanya saat menggunakan komputer, tetapi juga dalam kehidupan sehari-hari.</p>
+        
+        <p>Terdapat 4 pilar utama dalam Berpikir Komputasional:</p>
         <ul>
-            <li><strong>Dekomposisi:</strong> Memecah masalah besar menjadi bagian-bagian kecil yang lebih sederhana.</li>
-            <li><strong>Pengenalan Pola:</strong> Mencari kesamaan atau keteraturan dari berbagai data/masalah.</li>
-            <li><strong>Abstraksi:</strong> Memfokuskan diri hanya pada informasi penting dan mengabaikan detail yang tidak relevan.</li>
-            <li><strong>Algoritma:</strong> Menyusun langkah-langkah penyelesaian masalah secara berurutan dan logis.</li>
+            <li><strong>1. Dekomposisi (Decomposition):</strong> Memecah masalah besar atau proyek yang rumit menjadi bagian-bagian kecil atau sub-masalah yang lebih sederhana agar lebih mudah dikelola dan diselesaikan satu per satu.
+                <br><em>Contoh Kasus Nyata:</em> Saat sekolah akan mengadakan acara "Pementasan Seni", tugas tidak dikerjakan sekaligus, melainkan dipecah menjadi bagian kecil: Seksi Panggung, Seksi Konsumsi, Seksi Dokumentasi, dan Seksi Acara.</li>
+            <li><strong>2. Pengenalan Pola (Pattern Recognition):</strong> Mengamati, mencari, dan mengenali kesamaan, tren, keteraturan, atau karakteristik dari berbagai masalah yang pernah diselesaikan sebelumnya untuk diterapkan pada masalah saat ini.
+                <br><em>Contoh Kasus Nyata:</em> Ketika melihat langit mendung gelap, angin bertiup kencang, dan udara dingin, kita mengenali polanya bahwa sebentar lagi akan turun hujan berdasarkan pengalaman hari-hari sebelumnya.</li>
+            <li><strong>3. Abstraksi (Abstraction):</strong> Memfokuskan diri hanya pada informasi yang penting, relevan, dan esensial saja, serta membuang atau menyembunyikan detail rincian kecil yang tidak penting agar pikiran tidak terbebani.
+                <br><em>Contoh Kasus Nyata:</em> Saat melihat peta jalan (*Google Maps*), kita hanya fokus pada jalur rute utama dan arah tujuan, tanpa harus memikirkan detail warna cat rumah di pinggir jalan atau jumlah pohon di trotoar.</li>
+            <li><strong>4. Algoritma (Algorithm):</strong> Menyusun langkah-langkah atau instruksi penyelesaian masalah secara berurutan, logis, runtut, dan pasti dari awal sampai akhir tanpa ada keraguan.
+                <br><em>Contoh Kasus Nyata:</em> Langkah-langkah menanak nasi: 1. Cuci beras, 2. Tambahkan air secukupnya, 3. Masukkan ke *rice cooker*, 4. Tekan tombol *Cook*. Urutan ini tidak boleh dibolak-balik agar nasi matang sempurna.</li>
         </ul>
 
         <div class="visual-box">
-            <div class="visual-title">🖼️ Ilustrasi Visual: Pilar Berpikir Komputasional</div>
-            <p style="text-align: center; font-size: 13px; margin: 0;">
-                [ Masalah Kompleks ] ➔ <strong>Dekomposisi</strong> (Pecah Tugas) ➔ <strong>Pola</strong> (Cari Kesamaan) ➔ <strong>Abstraksi</strong> (Buang Detail) ➔ <strong>Algoritma</strong> (Susun Langkah)
-            </p>
+            <div class="visual-title">💡 Ilustrasi Visual: Alur Pemecahan Masalah 4 Pilar</div>
+            <div style="text-align: center; font-size: 13px; background: #fff; padding: 12px; border-radius: 6px; border: 1px solid #cbd5e1;">
+                <strong>Masalah Kompleks</strong> <br>⬇️<br>
+                🧩 <strong>Dekomposisi</strong> (Pecah jadi tugas kecil) ➔ 🔍 <strong>Pola</strong> (Cari kesamaan) ➔ 🏷️ <strong>Abstraksi</strong> (Buang detail tak penting) ➔ 📋 <strong>Algoritma</strong> (Susun urutan langkah solusi)
+            </div>
         </div>
 
-        <!-- BAB 2 -->
+        <!-- ================= BAB 2 ================= -->
         <h2>BAB 2: PENGELOLAAN FILE DAN FOLDER (UNPLUGGED)</h2>
-        <p>Data digital disimpan dalam bentuk <strong>file</strong> dan dikelompokkan ke dalam wadah bernama <strong>folder</strong> menggunakan sistem hierarki (pohon direktori) agar mudah ditemukan kembali. Setiap file memiliki <strong>ekstensi</strong> di belakang namanya untuk mengenali format aplikasi pembukanya.</p>
+        <h3>1. Teori Dasar File dan Folder</h3>
+        <p>Dalam dunia digital, data dan informasi disimpan di dalam perangkat penyimpanan komputer ke dalam satuan terkecil bernama <strong>File (Berkas)</strong>. Setiap file memiliki nama serta akhiran yang disebut <strong>Ekstensi File</strong> (misalnya <code>.docx</code>, <code>.jpg</code>, <code>.mp3</code>) untuk memberi tahu sistem aplikasi apa yang bisa membuka file tersebut.</p>
         
+        <p>Agar file-file tersebut tidak tercecer dan mudah ditemukan kembali, kita menggunakan wadah penyimpanan digital bernama <strong>Folder (Direktori)</strong>. Pengorganisasian folder disusun menggunakan sistem berjenjang atau bercabang yang disebut <strong>Pohon Direktori (*Folder Hierarchy*)</strong>, mulai dari Folder Utama (*Root*), masuk ke Sub-Folder kategori, hingga berisi file di dalamnya.</p>
+
         <div class="visual-box">
-            <div class="visual-title">📁 Ilustrasi Visual: Struktur Hierarki Folder & Ekstensi</div>
-            <div style="text-align: left; font-family: monospace; font-size: 13px; background: #fff; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
-                📁 DOKUMEN_SEKOLAH (Folder Utama / Root)<br>
-                &nbsp;&nbsp;├── 📁 TUGAS_IPA<br>
-                &nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 Laporan_Praktikum.docx <code>(.docx)</code><br>
-                &nbsp;&nbsp;└── 📁 FOTO_KEGIATAN<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🖼️ Upacara_Bendera.jpg <code>(.jpg)</code>
+            <div class="visual-title">📁 Ilustrasi Visual: Struktur Hierarki Folder Modern (File Manager)</div>
+            <div class="file-manager-ui">
+                📁 <b>This PC (Drive C:)</b><br>
+                &nbsp;&nbsp;└── 📁 <b>DATA_SEKOLAH_VII</b> (Folder Utama / Root)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 <b>01_Mata_Pelajaran</b><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📄 <i>Tugas_Informatika.docx</i> <span style="color: #047857;">[Ekstensi Dokumen]</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📊 <i>Nilai_Ujian.xlsx</i> <span style="color: #047857;">[Ekstensi Spreadsheet]</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 <b>02_Media_Praktik</b><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 🖼️ <i>Foto_Kegiatan.jpg</i> <span style="color: #047857;">[Ekstensi Gambar]</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🎬 <i>Video_Presentasi.mp4</i> <span style="color: #047857;">[Ekstensi Video]</span>
             </div>
         </div>
 
-        <!-- BAB 3 -->
+        <!-- ================= BAB 3 ================= -->
         <h2>BAB 3: PENGOLAH KATA & KETIK CEPAT (MAX 30 WPM)</h2>
-        <p>Aplikasi pengolah kata digunakan untuk mengetik dokumen resmi. Siswa kelas 7 dilatih membiasakan teknik 10 jari (*touch typing*) dengan target kecepatan hingga <strong>30 WPM (Words Per Minute)</strong> serta menjaga akurasi tinggi.</p>
+        <h3>1. Teori Aplikasi Pengolah Kata (*Word Processor*)</h3>
+        <p><strong>Pengolah Kata</strong> adalah perangkat lunak (*software*) yang dirancang khusus untuk membuat, menyunting, memformat, dan mencetak dokumen berbasis teks seperti surat resmi, laporan, makalah, dan artikel.</p>
+        <ul>
+            <li><strong>Jenis Aplikasi:</strong> 
+                <br>• <em>Versi Desktop (Komputer/Laptop):</em> Microsoft Word, LibreOffice Writer, WPS Office (memiliki fitur tata letak cetak dan instrumen tingkat lanjut).
+                <br>• <em>Versi Seluler / Cloud (HP/Tablet/Browser):</em> Google Docs, Microsoft Word Mobile (unggul dalam kolaborasi waktu nyata dan penyimpanan otomatis di awan/*cloud*).</li>
+            <li><strong>Keterampilan Ketik Cepat (Target 30 WPM):</strong> *WPM (Words Per Minute)* adalah satuan kecepatan mengetik. Siswa kelas 7 dilatih membiasakan teknik 10 jari (*touch typing*) dengan target pencapaian hingga **30 WPM** dengan tetap mengutamakan **akurasi tinggi (minim salah ketik / *typo*)**.</li>
+        </ul>
 
         <div class="visual-box">
-            <div class="visual-title">⌨️ Ilustrasi Visual: Format Surat Resmi (Google Docs)</div>
-            <div style="background: #fff; padding: 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 12px; text-align: center;">
-                <strong>ORGANISASI SISWA INTRA SEKOLAH (OSIS)</strong> <br><em>(Times New Roman, 14pt, Bold, Center)</em>
-                <hr style="border: 0.5px solid #2d6a4f; margin: 8px 0;">
-                <div style="text-align: left; padding: 5px;">
-                    Nomor: 005/OSIS-SMP1/IX/2026 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 September 2026 <em>(Right)</em><br><br>
-                    Dengan hormat, <br>
-                    Dalam rangka menyelenggarakan kegiatan Lomba Debat... <em>(Font Arial, 11pt, Justify / Rata Kiri-Kanan)</em>
+            <div class="visual-title">⌨️ Ilustrasi Visual: Format Dokumen Surat Resmi & Tombol Perataan (Alignment)</div>
+            <div style="background: #fff; padding: 15px; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 13px;">
+                <div style="text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 15px;">
+                    ORGANISASI SISWA INTRA SEKOLAH (OSIS)<br>SMP NEGERI 1 INDONESIA
                 </div>
+                <div style="font-size: 11px; text-align: center; color: #666; margin-bottom: 8px;">[ Diatur Rata Tengah / Center Alignment ]</div>
+                <hr style="border: 0.5px solid #2d6a4f; margin: 8px 0;">
+                <table style="width: 100%; font-size: 12px; margin-bottom: 8px;">
+                    <tr>
+                        <td style="text-align: left;">Nomor: 005/OSIS-SMP1/IX/2026 <i>(Rata Kiri / Left)</i></td>
+                        <td style="text-align: right;">14 September 2026 <i>(Rata Kanan / Right)</i></td>
+                    </tr>
+                </table>
+                <p style="font-size: 12px; text-align: justify; margin: 5px 0;">
+                    Dengan hormat, dalam rangka menyelenggarakan kegiatan Lomba Debat antar kelas... <i>(Paragraf diatur menggunakan Rata Kiri-Kanan / Justify agar margin tepi lurus rapi seimbang).</i>
+                </p>
             </div>
         </div>
 
-        <!-- BAB 4 -->
+        <!-- ================= BAB 4 ================= -->
         <h2>BAB 4: PERANGKAT KERAS KOMPUTER (HARDWARE)</h2>
-        <p>Komputer mengolah data melalui siklus komputasi dasar:</p>
+        <h3>1. Siklus Pengolahan Data Komputer</h3>
+        <p>Perangkat keras (*hardware*) adalah seluruh komponen fisik komputer yang dapat dilihat dan disentuh. Dalam memproses data, komputer selalu mengikuti alur siklus komputasi yang runtut:</p>
+        
         <div class="cycle-flow">
-            Input (Masukan) ➔ Process (Pemrosesan) ➔ Output (Keluaran) ➔ Storage (Penyimpanan)
+            📥 INPUT (Masukan) ➔ ⚙️ PROCESS (Pemrosesan) ➔ 📤 OUTPUT (Keluaran) ➔ 💾 STORAGE (Penyimpanan)
         </div>
 
-        <h3>Rincian Komponen Perangkat Keras & Visualisasinya:</h3>
-        
+        <h3>2. Rincian Lengkap Komponen Perangkat Keras</h3>
+        <p>Berikut adalah pengelompokan lengkap seluruh perangkat keras komputer beserta penjelasan dan ilustrasi visualnya:</p>
+
         <div class="hardware-grid">
-            <!-- Hardware 1 -->
+            <!-- 1 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Masukan (Input)</span>
                 <div class="hardware-icon">⌨️</div>
                 <div class="hardware-name">Keyboard (Papan Ketik)</div>
-                <div class="hardware-desc">Perangkat input utama berisi deretan tombol huruf standar QWERTY dan angka untuk memasukkan teks.</div>
+                <div class="hardware-desc">Papan berisi deretan tombol huruf standar QWERTY dan angka untuk memasukkan teks atau perintah.</div>
             </div>
-            <!-- Hardware 2 -->
+            <!-- 2 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Masukan (Input)</span>
                 <div class="hardware-icon">🖱️</div>
                 <div class="hardware-name">Mouse (Tetikus)</div>
-                <div class="hardware-desc">Alat penunjuk genggam dengan tombol klik kiri/kanan dan scroll wheel untuk menggerakkan kursor.</div>
+                <div class="hardware-desc">Alat penunjuk genggam dengan tombol klik kiri/kanan dan roda gulir untuk menggerakkan kursor layar.</div>
             </div>
-            <!-- Hardware 3 -->
+            <!-- 3 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Masukan (Input)</span>
+                <div class="hardware-icon">📷</div>
+                <div class="hardware-name">Scanner & Kamera</div>
+                <div class="hardware-desc">Alat pemindai dokumen fisik atau penangkap objek visual untuk diubah menjadi file digital di komputer.</div>
+            </div>
+            <!-- 4 -->
+            <div class="hardware-card">
+                <span class="category-badge">Perangkat Pemroses (Process)</span>
                 <div class="hardware-icon">🔲</div>
                 <div class="hardware-name">CPU / Processor</div>
-                <div class="hardware-desc">Kepingan silikon kotak berukuran kecil sebagai "otak" pusat pengolah seluruh instruksi logika komputer.</div>
+                <div class="hardware-desc">Kepingan silikon kecil sebagai "otak" utama yang memproses seluruh instruksi logika dan perhitungan data.</div>
             </div>
-            <!-- Hardware 4 -->
+            <!-- 5 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Pemroses (Process)</span>
                 <div class="hardware-icon">🧩</div>
-                <div class="hardware-name">Motherboard</div>
-                <div class="hardware-desc">Papan sirkuit cetak utama tempat seluruh komponen hardware terhubung dan dialiri listrik.</div>
+                <div class="hardware-name">Motherboard (Papan Induk)</div>
+                <div class="hardware-desc">Papan sirkuit cetak utama tempat seluruh komponen hardware dihubungkan dan dialiri arus listrik.</div>
             </div>
-            <!-- Hardware 5 -->
+            <!-- 6 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Penyimpanan (Storage)</span>
                 <div class="hardware-icon">🧠</div>
                 <div class="hardware-name">RAM (Memori Utama)</div>
-                <div class="hardware-desc">Kepingan sirkuit tipis memanjang untuk menampung data program yang sedang berjalan secara sementara.</div>
+                <div class="hardware-desc">Kepingan sirkuit tipis untuk menampung data program yang sedang berjalan secara sementara (volatile).</div>
             </div>
-            <!-- Hardware 6 -->
+            <!-- 7 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Penyimpanan (Storage)</span>
                 <div class="hardware-icon">💾</div>
-                <div class="hardware-name">Harddisk / SSD</div>
-                <div class="hardware-desc">Kotak logam penyimpan data sekunder permanen berkapasitas besar untuk file dan sistem operasi.</div>
+                <div class="hardware-name">Harddisk (HDD) & SSD</div>
+                <div class="hardware-desc">Media penyimpanan sekunder permanen berkapasitas besar untuk menyimpan file dan sistem operasi.</div>
             </div>
-            <!-- Hardware 7 -->
+            <!-- 8 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Keluaran (Output)</span>
                 <div class="hardware-icon">🖥️</div>
-                <div class="hardware-name">Monitor (Layar)</div>
-                <div class="hardware-desc">Perangkat output berlayar datar tipis yang menampilkan antarmuka visual kepada pengguna.</div>
+                <div class="hardware-name">Monitor (Layar Tampilan)</div>
+                <div class="hardware-desc">Perangkat output berlayar datar tipis yang menyajikan antarmuka visual gambar dan teks kepada pengguna.</div>
             </div>
-            <!-- Hardware 8 -->
+            <!-- 9 -->
             <div class="hardware-card">
+                <span class="category-badge">Perangkat Keluaran (Output)</span>
                 <div class="hardware-icon">🖨️</div>
                 <div class="hardware-name">Printer (Mesin Cetak)</div>
-                <div class="hardware-desc">Perangkat output untuk mencetak hasil pengolahan data digital ke atas lembaran kertas fisik.</div>
+                <div class="hardware-desc">Perangkat output untuk mencetak hasil pengolahan data digital ke atas permukaan lembaran kertas fisik.</div>
+            </div>
+            <!-- 10 -->
+            <div class="hardware-card">
+                <span class="category-badge">Perangkat Keluaran (Output)</span>
+                <div class="hardware-icon">🔊</div>
+                <div class="hardware-name">Speaker (Pengeras Suara)</div>
+                <div class="hardware-desc">Perangkat akustik untuk menghasilkan dan mengeluarkan gelombang suara dari sistem komputer.</div>
             </div>
         </div>
 
