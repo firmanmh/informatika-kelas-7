@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangkuman Pegangan Informatika Kelas 7 - Kurikulum Nasional</title>
+    <style>
+        /* Pengaman: Mencegah seleksi teks dan klik kanan */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid #2d6a4f;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2d6a4f;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        .teacher-info {
+            background: #e8f5e9;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            margin-top: 12px;
+            display: inline-block;
+            color: #2e7d32;
+            border: 1px solid #c8e6c9;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #fff;
+            background: #2d6a4f;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 35px;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: #1b4332;
+            margin-top: 25px;
+            border-left: 5px solid #52b788;
+            padding-left: 10px;
+        }
+
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Kotak Visual Ilustrasi */
+        .visual-box {
+            background: #f8f9fa;
+            border: 2px dashed #95d5b2;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .visual-title {
+            font-weight: bold;
+            font-size: 13px;
+            color: #2d6a4f;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Grid Komponen Hardware */
+        .hardware-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .hardware-card {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            text-align: center;
+        }
+
+        .hardware-icon {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        .hardware-name {
+            font-weight: bold;
+            font-size: 14px;
+            color: #1b4332;
+            margin-bottom: 5px;
+        }
+
+        .hardware-desc {
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+
+        .cycle-flow {
+            background: #e9f5ed;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            color: #2d6a4f;
+            margin: 15px 0;
+            font-size: 14px;
+            border: 1px solid #b7e4c7;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #777;
+        }
+
+        /* Responsif untuk HP */
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>RANGKUMAN PEGANGAN INFORMATIKA KELAS 7</h1>
+            <div class="subtitle">KURIKULUM NASIONAL — FASE D</div>
+            <div class="teacher-info">
+                <strong>Guru Pengampu:</strong> Firman Maulidian Hamid, S.E.<br>
+                <strong>Mata Pelajaran:</strong> Informatika Kelas VII
+            </div>
+        </header>
+
+        <!-- BAB 1 -->
+        <h2>BAB 1: BERPIKIR KOMPUTASIONAL (COMPUTATIONAL THINKING)</h2>
+        <p>Berpikir Komputasional adalah kerangka pemecahan masalah dengan menirukan cara kerja sistematis, logis, dan terstruktur. Terdapat 4 pilar utama:</p>
+        <ul>
+            <li><strong>Dekomposisi:</strong> Memecah masalah besar menjadi bagian-bagian kecil yang lebih sederhana.</li>
+            <li><strong>Pengenalan Pola:</strong> Mencari kesamaan atau keteraturan dari berbagai data/masalah.</li>
+            <li><strong>Abstraksi:</strong> Memfokuskan diri hanya pada informasi penting dan mengabaikan detail yang tidak relevan.</li>
+            <li><strong>Algoritma:</strong> Menyusun langkah-langkah penyelesaian masalah secara berurutan dan logis.</li>
+        </ul>
+
+        <div class="visual-box">
+            <div class="visual-title">🖼️ Ilustrasi Visual: Pilar Berpikir Komputasional</div>
+            <p style="text-align: center; font-size: 13px; margin: 0;">
+                [ Masalah Kompleks ] ➔ <strong>Dekomposisi</strong> (Pecah Tugas) ➔ <strong>Pola</strong> (Cari Kesamaan) ➔ <strong>Abstraksi</strong> (Buang Detail) ➔ <strong>Algoritma</strong> (Susun Langkah)
+            </p>
+        </div>
+
+        <!-- BAB 2 -->
+        <h2>BAB 2: PENGELOLAAN FILE DAN FOLDER (UNPLUGGED)</h2>
+        <p>Data digital disimpan dalam bentuk <strong>file</strong> dan dikelompokkan ke dalam wadah bernama <strong>folder</strong> menggunakan sistem hierarki (pohon direktori) agar mudah ditemukan kembali. Setiap file memiliki <strong>ekstensi</strong> di belakang namanya untuk mengenali format aplikasi pembukanya.</p>
+        
+        <div class="visual-box">
+            <div class="visual-title">📁 Ilustrasi Visual: Struktur Hierarki Folder & Ekstensi</div>
+            <div style="text-align: left; font-family: monospace; font-size: 13px; background: #fff; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+                📁 DOKUMEN_SEKOLAH (Folder Utama / Root)<br>
+                &nbsp;&nbsp;├── 📁 TUGAS_IPA<br>
+                &nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── 📄 Laporan_Praktikum.docx <code>(.docx)</code><br>
+                &nbsp;&nbsp;└── 📁 FOTO_KEGIATAN<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🖼️ Upacara_Bendera.jpg <code>(.jpg)</code>
+            </div>
+        </div>
+
+        <!-- BAB 3 -->
+        <h2>BAB 3: PENGOLAH KATA & KETIK CEPAT (MAX 30 WPM)</h2>
+        <p>Aplikasi pengolah kata digunakan untuk mengetik dokumen resmi. Siswa kelas 7 dilatih membiasakan teknik 10 jari (*touch typing*) dengan target kecepatan hingga <strong>30 WPM (Words Per Minute)</strong> serta menjaga akurasi tinggi.</p>
+
+        <div class="visual-box">
+            <div class="visual-title">⌨️ Ilustrasi Visual: Format Surat Resmi (Google Docs)</div>
+            <div style="background: #fff; padding: 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 12px; text-align: center;">
+                <strong>ORGANISASI SISWA INTRA SEKOLAH (OSIS)</strong> <br><em>(Times New Roman, 14pt, Bold, Center)</em>
+                <hr style="border: 0.5px solid #2d6a4f; margin: 8px 0;">
+                <div style="text-align: left; padding: 5px;">
+                    Nomor: 005/OSIS-SMP1/IX/2026 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 September 2026 <em>(Right)</em><br><br>
+                    Dengan hormat, <br>
+                    Dalam rangka menyelenggarakan kegiatan Lomba Debat... <em>(Font Arial, 11pt, Justify / Rata Kiri-Kanan)</em>
+                </div>
+            </div>
+        </div>
+
+        <!-- BAB 4 -->
+        <h2>BAB 4: PERANGKAT KERAS KOMPUTER (HARDWARE)</h2>
+        <p>Komputer mengolah data melalui siklus komputasi dasar:</p>
+        <div class="cycle-flow">
+            Input (Masukan) ➔ Process (Pemrosesan) ➔ Output (Keluaran) ➔ Storage (Penyimpanan)
+        </div>
+
+        <h3>Rincian Komponen Perangkat Keras & Visualisasinya:</h3>
+        
+        <div class="hardware-grid">
+            <!-- Hardware 1 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">⌨️</div>
+                <div class="hardware-name">Keyboard (Papan Ketik)</div>
+                <div class="hardware-desc">Perangkat input utama berisi deretan tombol huruf standar QWERTY dan angka untuk memasukkan teks.</div>
+            </div>
+            <!-- Hardware 2 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🖱️</div>
+                <div class="hardware-name">Mouse (Tetikus)</div>
+                <div class="hardware-desc">Alat penunjuk genggam dengan tombol klik kiri/kanan dan scroll wheel untuk menggerakkan kursor.</div>
+            </div>
+            <!-- Hardware 3 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🔲</div>
+                <div class="hardware-name">CPU / Processor</div>
+                <div class="hardware-desc">Kepingan silikon kotak berukuran kecil sebagai "otak" pusat pengolah seluruh instruksi logika komputer.</div>
+            </div>
+            <!-- Hardware 4 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🧩</div>
+                <div class="hardware-name">Motherboard</div>
+                <div class="hardware-desc">Papan sirkuit cetak utama tempat seluruh komponen hardware terhubung dan dialiri listrik.</div>
+            </div>
+            <!-- Hardware 5 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🧠</div>
+                <div class="hardware-name">RAM (Memori Utama)</div>
+                <div class="hardware-desc">Kepingan sirkuit tipis memanjang untuk menampung data program yang sedang berjalan secara sementara.</div>
+            </div>
+            <!-- Hardware 6 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">💾</div>
+                <div class="hardware-name">Harddisk / SSD</div>
+                <div class="hardware-desc">Kotak logam penyimpan data sekunder permanen berkapasitas besar untuk file dan sistem operasi.</div>
+            </div>
+            <!-- Hardware 7 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🖥️</div>
+                <div class="hardware-name">Monitor (Layar)</div>
+                <div class="hardware-desc">Perangkat output berlayar datar tipis yang menampilkan antarmuka visual kepada pengguna.</div>
+            </div>
+            <!-- Hardware 8 -->
+            <div class="hardware-card">
+                <div class="hardware-icon">🖨️</div>
+                <div class="hardware-name">Printer (Mesin Cetak)</div>
+                <div class="hardware-desc">Perangkat output untuk mencetak hasil pengolahan data digital ke atas lembaran kertas fisik.</div>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 Rangkuman Pegangan Informatika Kelas 7 SMP<br>
+            <strong>Guru Pengampu: Firman Maulidian Hamid, S.E.</strong>
+        </footer>
+    </div>
+
+    <!-- Skrip Pengaman: Mencegah Klik Kanan dan Salin Teks -->
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('Fitur klik kanan dinonaktifkan pada rangkuman pegangan ini.');
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (
+                e.ctrlKey && (e.key === 'c' || e.key === 'u' || e.key === 's' || e.key === 'p' || e.key === 'a') ||
+                e.keyCode === 123
+            ) {
+                e.preventDefault();
+                alert('Tindakan ini dibatasi demi keamanan materi rangkuman.');
+            }
+        });
+    </script>
+</body>
+</html>
